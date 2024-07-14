@@ -125,6 +125,8 @@
             
           
             
+          
+            
               
                 
                 <li class="nav-item ">
@@ -138,6 +140,16 @@
           
             
           
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/people/">people
+                    
+                  </a>
+                </li>
+              
             
           
             
@@ -200,6 +212,34 @@
   </header>
 
   <article>
+    
+      <div class="profile float-right">
+        
+          
+          
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/kloud.jpg?e5d0d4b4d150bcb67e13b0a93326482c" class="img-fluid z-depth-1
+      rounded" width="100%" height="auto" alt="kloud.jpg" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+        
+          <div class="more-info"></div>
+        
+      </div>
     
 
     <div class="clearfix">
@@ -458,6 +498,13 @@
               section: "Navigation",
               handler: () => {
                 window.location.href = "/teaching/";
+              },
+            },{id: "nav-people",
+              title: "people",
+              description: "members of our team, KLOUD",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/people/";
               },
             },{id: "nav-projects",
               title: "projects",
