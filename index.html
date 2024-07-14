@@ -213,12 +213,11 @@
 
   <article>
     
-      <div class="profile float-right">
+
+    <div class="clearfix">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         
-          
-          
-          
-          
 
 <figure>
   <picture>
@@ -228,21 +227,32 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-    <img src="/assets/img/kloud.jpg?e5d0d4b4d150bcb67e13b0a93326482c" class="img-fluid z-depth-1
-      rounded" width="100%" height="auto" alt="kloud.jpg" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/kloud.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
 </figure>
 
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
         
-        
-          <div class="more-info"></div>
-        
-      </div>
-    
 
-    <div class="clearfix">
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/logo.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
 </div>
 
     <!-- News -->

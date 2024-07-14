@@ -1,5 +1,3 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, I'm a junior majoring in Materials Science and Engineering. I love spending my free time having fun and enjoying various activities. Originally, I aimed to major in piano, but I had to give up that dream due to my small hands. This led me to pursue a path in engineering instead.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I still don't know exactly what I want to do in the future, but I enjoy learning languages and am currently mastering Japanese as a second foreign language. Although I'm not particularly strong in chemistry or physics, I have some interest in these subjects and plan to work in the field of semiconductors or electronic materials.
